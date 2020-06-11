@@ -89,6 +89,10 @@ class Product1 {
 class Director {
     private builder: Builder;
 
+    constructor() {
+        this.builder = new ConcreteBuilder1();
+    }
+
     /**
      * The Director works with any builder instance that the client code passes
      * to it. This way, the client code may alter the final type of the newly
