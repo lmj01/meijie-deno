@@ -8,7 +8,7 @@ class Prototype {
     public circularReference: ComponentWithBackReference;
 
     constructor() {
-        this.component = Object.create({});
+        this.component = new Date();
         this.circularReference = new ComponentWithBackReference(this);
     }
 
