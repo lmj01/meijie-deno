@@ -8,12 +8,12 @@ REM deno run factory-method.ts
 REM deno run abstract-factory.ts
 REM deno run builder.ts
 REM deno run prototype.ts 
-deno run singleton.ts 
+REM deno run singleton.ts 
 
 REM -- structural patterns --
 
 REM deno run adapter.ts 
-REM deno run bridge.ts 
+deno run bridge.ts 
 REM deno run composite.ts 
 REM deno run decorator.ts 
 REM deno run facade.ts 
